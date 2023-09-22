@@ -1,29 +1,43 @@
+import React from 'react';
 import './App.css';
+import Header from './components/header';
+import ProgressCircle from './components/ProgressCircle';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
+    <div className="App" style={{ 
+      backgroundImage: 'url(/medicalwebsitebackgroundv2.jpg)', 
+      backgroundRepeat: 'no-repeat', 
+      backgroundSize: 'cover', 
+      backgroundPosition: 'center -1250px',
+      minHeight: '100vh'
+    }}>
+      <img src="/ExampleImage.png" alt="Example of a custom made protocol automation app" className="exampleImage" />
+      <Header />
+      <div className="content">
+        <h1>
+          Automatically Create Patient Treatment Plans
+        </h1>
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+        Enter patient details. <br /> <br /> Get a tailored treatment <br /> schedule instantly.
         </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ProgressCircle/>
+      </div>
+      <div className="UISection">
+        <h1>
+          Custom Made UI
+        </h1>
         <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          Get an easy to use <br />interface made tailored to<br /> your practice
         </p>
-      </header>
+      </div>
     </div>
   );
 }
 
+
 export default App;
+

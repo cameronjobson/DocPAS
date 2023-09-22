@@ -1,0 +1,172 @@
+import React from 'react'
+import "./SkewedNavbar.css";
+
+export default function SkewedNavbar() {
+  return (
+    <div>
+    <ul>
+  <li>
+    <a href="#">
+      <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={192}
+          height={192}
+          fill="currentColor"
+          viewBox="0 0 256 256"
+        >
+          <rect width={256} height={256} fill="none" />
+          <circle
+            cx={128}
+            cy={128}
+            r={96}
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+          <circle
+            cx={128}
+            cy={120}
+            r={40}
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+          <path
+            d="M63.79905,199.37405a72.02812,72.02812,0,0,1,128.40177-.00026"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+        </svg>
+        Contact
+      </span>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={192}
+          height={192}
+          fill="currentColor"
+          viewBox="0 0 256 256"
+        >
+          <rect width={256} height={256} fill="none" />
+          <rect
+            x={24}
+            y={56}
+            width={208}
+            height={144}
+            rx={8}
+            strokeWidth={16}
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            fill="none"
+          />
+          <line
+            x1="167.99414"
+            y1={168}
+            x2="199.99414"
+            y2={168}
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+          <line
+            x1="119.99414"
+            y1={168}
+            x2="135.99414"
+            y2={168}
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+          <line
+            x1="23.99414"
+            y1="96.85228"
+            x2="231.99412"
+            y2="96.85228"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+        </svg>
+        Pricing
+      </span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={192}
+          height={192}
+          fill="currentColor"
+          viewBox="0 0 256 256"
+        >
+          <rect width={256} height={256} fill="none" />
+          <line
+            x1={96}
+            y1={152}
+            x2={160}
+            y2={152}
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+          <line
+            x1={96}
+            y1={120}
+            x2={160}
+            y2={120}
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+          <path
+            d="M160.00194,40H200a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H95.99783"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+          <path
+            d="M88,72V64a40,40,0,0,1,80,0v8Z"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={16}
+          />
+        </svg>
+        Services
+      </span>
+    </a>
+  </li>
+</ul>
+
+    </div>
+  )
+}

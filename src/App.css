@@ -1,31 +1,63 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-family: 'Arial', sans-serif; /* Adding a default font */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.content {
+  font-family: 'Roboto', sans-serif;
+  padding: 80px 50px 50px 80px;
+  color: black; /* Moved from .App-header */
+  min-height: calc(100vh - 60px); /* Adjusting for your header's height, assuming it's 60px */
+  padding-bottom: 2000px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content h1 {
+  font-size: 37px;  /* Adjust this value to your preference for the h1 tags */
+}
+
+.content p {
+  font-size: 65px;  /* Adjust this value to your preference for the paragraph tags */
+}
+
+.titleWithImage {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: right; /* This will vertically align the text and the image */
+  justify-content: space-between; /* This will push the text and image apart to occupy the entire width */
 }
 
-.App-link {
-  color: #61dafb;
+.exampleImage {
+  position: absolute;
+  top: 80px;  /* Adjust as needed */
+  right: 30px;  /* Adjust as needed */
+  height: 600px; /* Adjust this based on your needs */
+  width: auto; /* Maintains the aspect ratio */
+  border: 2px solid lightskyblue;
+  border-radius: 10px;
 }
 
-.heart {
-  color: #ff0000;
+.UISection {
+  position: absolute;
+  top: 730px;
+  right: 0px;
+  width: 1450px;
+  background-color: skyblue;
+  padding: 20px;
+  min-height: 100vh; /* Adjust the height as necessary */
+  font-family: 'Arial', sans-serif;
+  text-align: left;
 }
 
-.small {
-  font-size: 0.75rem;
+.UISection h1{
+  position: absolute;
+  right: 240px;
+  font-size: 70px;
+}
+
+.UISection p {
+  position: absolute;
+  bottom: 350px;
+  right: 120px;
+  font-size: 50px;  /* Adjust this value to your preference for the paragraph tags */
 }
