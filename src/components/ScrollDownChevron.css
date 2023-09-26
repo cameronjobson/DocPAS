@@ -1,0 +1,28 @@
+.scrollDownWrapper {
+    position: absolute;
+    top: 750px;
+    right: 680px;
+  }
+  
+  .chevron {
+    width: 40px;    /* Increased width for flatter appearance */
+    height: 40px;    /* Reduced height for flatter appearance */
+    border: 0.8em solid currentColor;
+    border-right: none;
+    border-top: none;
+    transform: rotate(-45deg);
+    animation: moveChevron 0.5s infinite alternate;
+    margin: 7px;
+    opacity: 0.3;
+  }
+  
+  
+  @keyframes moveChevron {
+    0% {
+      transform: translateY(0) rotate(-45deg);
+    }
+    100% {
+      transform: translateY(-10px) rotate(-45deg);
+    }
+  }
+  

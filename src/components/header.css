@@ -1,6 +1,6 @@
 .custom-header {
   width: 100%;
-  height: 60px;
+  height: 80px;
   position: fixed;
   top: 0;
   left: 0;
@@ -15,10 +15,11 @@
   align-items: center;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   padding: 0 15px;  /* Adding some padding so content isn't right against the edge */
+  z-index: 1000;
 }
 
 .custom-header.hidden {
-  top: -60px;
+  top: -80px;
 }
 
 .banner-logo {

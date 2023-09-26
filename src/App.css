@@ -4,21 +4,20 @@
 }
 
 
-
 .content {
   font-family: 'Roboto', sans-serif;
-  padding: 80px 50px 50px 80px;
+  padding: 130px 50px 50px 80px;
   color: black; /* Moved from .App-header */
   min-height: calc(100vh - 60px); /* Adjusting for your header's height, assuming it's 60px */
   padding-bottom: 2000px;
 }
 
 .content h1 {
-  font-size: 37px;  /* Adjust this value to your preference for the h1 tags */
+  font-size: 65px;  /* Adjust this value to your preference for the h1 tags */
 }
 
 .content p {
-  font-size: 65px;  /* Adjust this value to your preference for the paragraph tags */
+  font-size: 55px;  /* Adjust this value to your preference for the paragraph tags */
 }
 
 .titleWithImage {
@@ -29,8 +28,8 @@
 
 .exampleImage {
   position: absolute;
-  top: 80px;  /* Adjust as needed */
-  right: 30px;  /* Adjust as needed */
+  top: 140px;  /* Adjust as needed */
+  right: 80px;  /* Adjust as needed */
   height: 600px; /* Adjust this based on your needs */
   width: auto; /* Maintains the aspect ratio */
   border: 2px solid lightskyblue;
@@ -39,25 +38,19 @@
 
 .UISection {
   position: absolute;
-  top: 730px;
-  right: 0px;
+  top: 820px;
+  left: 950px;
   width: 1450px;
-  background-color: skyblue;
   padding: 20px;
   min-height: 100vh; /* Adjust the height as necessary */
   font-family: 'Arial', sans-serif;
   text-align: left;
 }
 
-.UISection h1{
-  position: absolute;
-  right: 240px;
-  font-size: 70px;
-}
-
-.UISection p {
-  position: absolute;
-  bottom: 350px;
-  right: 120px;
-  font-size: 50px;  /* Adjust this value to your preference for the paragraph tags */
+.textBackground {
+  background-color: black;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;  /* Optional: if you want white text on the black background */
 }
