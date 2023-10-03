@@ -1,0 +1,14 @@
+.blueButton {
+    background-color: #D0E7FF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    /* Optional: Add some hover effect */
+    &:hover {
+        background-color: deepskyblue;
+    }
+}

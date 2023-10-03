@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header';
 import ProgressCircle from './components/ProgressCircle';
 import ScrollDownChevron from './components/ScrollDownChevron';
+import ButtonComponent from './components/ButtonComponent';
 
 
 
@@ -10,10 +11,10 @@ import ScrollDownChevron from './components/ScrollDownChevron';
 function App() {
   return (
     <div className="App" style={{ 
-      backgroundImage: 'url(/2ndmedicalwebsitebackground.jpeg), url(/medicalwebsitebackgroundv2.jpg)',  // Reordered the images
-      backgroundRepeat: 'no-repeat, no-repeat',  // Separate repeat values for each image
-      backgroundSize: '1450px 1000px, cover',  // Adjusted size for the top image
-      backgroundPosition: 'center center, center -1250px',  // Separate position values for each image
+      backgroundImage: 'url(/lightblueEnhanced.jpg), url(/2ndmedicalwebsitebackground.jpeg), url(/whitewebsitebackgroundekg.jpeg)',
+      backgroundRepeat: 'no-repeat, no-repeat, no-repeat',
+      backgroundSize: '1450px 950px, 1450px 1000px, 1450px 1450px',
+      backgroundPosition: 'center 1640px, center 820px, center 0px', // Placed the third image right below the second
       minHeight: '100vh'
     }}>
       <img src="/ExampleImage.png" alt="Example of a custom made protocol automation app" className="exampleImage" />
@@ -25,22 +26,30 @@ function App() {
         <p>
         Enter patient details. <br /> <br /> Get a tailored treatment <br /> schedule instantly.
         </p>
+        <ButtonComponent />
         <ProgressCircle/>
         <ScrollDownChevron />
       </div>
       <div className="UISection">
-        <div className="textBackground">
-          <h1>
-            Custom Made UI
-          </h1>
-          <p>
-            Get an easy to use <br />interface made tailored to<br /> your practice
-          </p>
-        </div>
-      </div>
+    <h1 className="customBackgroundH1">
+        Custom Made UI
+    </h1>
+    <p className="customBackgroundP">
+        Get an easy to use <br />interface made tailored to<br /> your practice
+    </p>
+</div>
+<div className="mobileFriendly">
+  <h1 className="customBackgroundMobileH1">
+    Mobile Friendly
+  </h1>
+  <p className="customBackgroundMobileP">
+        Easy to access <br />when rounding on <br /> patients
+    </p>
+</div>
     </div>
   );
 }
+
 
 
 export default App;
