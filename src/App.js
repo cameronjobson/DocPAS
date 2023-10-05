@@ -31,6 +31,7 @@ function App() {
         <ScrollDownChevron />
       </div>
       <div className="UISection">
+        <img src="/customUserInterfaceImage.png" alt="Example of Custom UI" className="UserInterfaceImage"/>
     <h1 className="customBackgroundH1">
         Custom Made UI
     </h1>
